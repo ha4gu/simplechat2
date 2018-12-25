@@ -7,6 +7,7 @@ ruby '2.5.3'
 git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
 
 gem 'rails',        '5.2.2'
+gem 'bootsnap',     '1.3.2'
 gem 'puma',         '3.12.0'
 gem 'sass-rails',   '5.0.7'
 gem 'uglifier',     '4.1.20'
