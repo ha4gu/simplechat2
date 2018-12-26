@@ -1,5 +1,4 @@
 // Custom bootstrap variables must be set or imported *before* bootstrap.
 @import "bootstrap";
-
-@import "./static_pages.scss"
-
+@import "common.scss";
+@import "static_pages.scss";

@@ -1,2 +1,14 @@
-<h1>StaticPages#top</h1>
-<p>Find me in app/views/static_pages/top.html.erb</p>
+<div class="jumbotron my-4">
+  <h1>SimpleChat ver.2</h1>
+  <h2 class="m-4">それは、単純なチャットアプリのようなもの。</h2>
+  <hr class="my-4">
+  <p class="text-right font-italic">
+    『SimpleChatは、大した機能も持たないチャットアプリのような何かだと思います。<br>
+    少なくともver.1ではそうでした。』
+  </p>
+  <div class="text-center mt-5">
+    <%= link_to "新規登録", "#", class: "btn btn-outline-primary mx-3" %>
+    または
+    <%= link_to "ログイン", "#", class: "btn btn-outline-primary mx-3" %>
+  </div>
+</div>
