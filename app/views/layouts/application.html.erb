@@ -3,7 +3,7 @@
   <head>
     <%= render 'layouts/meta' %>
 
-    <title>Simplechat2</title>
+    <title><%= build_title(yield(:page_title)) %></title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
