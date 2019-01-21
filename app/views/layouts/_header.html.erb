@@ -1,12 +1,24 @@
-<header class="navbar fixed-top navbar-expand navbar-dark bg-primary">
-  <div class="container">
-    <%= link_to "SimpleChat ver.2", root_path, class: "navbar-brand" %>
+<header>
+  <nav class="navbar navbar-expand-sm navbar-dark bg-primary fixed-top">
+    <div class="container">
+      <%= link_to "SimpleChat ver.2", root_path, class: "navbar-brand" %>
 
-    <nav class="nav navbar-nav justify-content-end">
-      <%= link_to "このアプリについて", '#', class: "nav-link" %>
-      <%= link_to "新規登録", '#', class: "nav-link" %>
-      <%= link_to "ログイン", '#', class: "nav-link" %>
-    </nav>
+      <button class="navbar-toggler" type="button" data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-  </div>
+      <div id="navbarSupportedContent"
+        class="collapse navbar-collapse justify-content-end">
+        <div class="navbar-nav text-right text-sm-left">
+          <%= link_to "このアプリについて", about_path, class: "nav-item nav-link" %>
+          <%= link_to "新規登録", '#', class: "nav-item nav-link" %>
+          <%= link_to "ログイン", '#', class: "nav-item nav-link" %>
+        </div>
+      </div> <!-- div#navbarSupportedContent -->
+
+    </div> <!-- div.container -->
+  </nav>
 </header>

@@ -1,0 +1,9 @@
+<% if !yield(:active_link).empty? %>
+  <script>
+    window.addEventListener('DOMContentLoaded', function(){
+      var target = 'div#navbarSupportedContent a[href="<%= yield :active_link %>"]';
+      var currentMenuItem = document.querySelector(target);
+      currentMenuItem.classList.add('active');
+    });
+  </script>
+<% end %>

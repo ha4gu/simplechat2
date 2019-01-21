@@ -1,9 +1,10 @@
 // 全ページ共通要素
 
-header {
-  height: 80px;
-}
+$header_height: 56px;
 
 main {
-  padding-top: 80px;
+  padding-top: $header_height;
 }
+
+h1 { font-size: 2.0em; }
+h2 { font-size: 1.5em; }
