@@ -15,6 +15,7 @@ gem 'jquery-rails', '4.3.3'
 gem 'jbuilder',     '2.8.0'
 gem 'bcrypt',       '3.1.12'
 gem 'bootstrap',    '4.2.1'
+gem 'devise',       '4.5.0'
 #gem 'coffee-rails', '4.2.2'
 #gem 'turbolinks',   '5.2.0'
 
